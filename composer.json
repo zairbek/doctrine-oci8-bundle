@@ -3,11 +3,11 @@
     "type": "symfony-bundle",
     "description": "Doctrine OCI8 (Oracle) bundle",
     "keywords": [
-        "symfony",
+        "bundle",
         "oci",
         "oci8",
         "oracle",
-        "bundle"
+        "symfony"
     ],
     "license": "BSD-3-Clause",
     "require": {
