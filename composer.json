@@ -17,13 +17,12 @@
         "ecphp/doctrine-oci8": "^1"
     },
     "require-dev": {
-        "drupol/php-conventions": "^3.0.2",
+        "drupol/php-conventions": "^3.0",
         "friends-of-phpspec/phpspec-code-coverage": "^6.0",
         "infection/infection": "^0.21.0",
         "infection/phpspec-adapter": "^0.1.2",
         "phpspec/phpspec": "^7.0",
-        "vimeo/psalm": "^4.4",
-        "symfony/orm-pack": "^2.1"
+        "symfony/http-kernel": "^4.4"
     },
     "autoload": {
         "psr-4": {
