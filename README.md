@@ -10,7 +10,7 @@
 
 # Doctrine OCI8 Bundle
 
-A bundle for Symfony 5.
+A bundle for PHP >= 7.4 and Symfony >= 4.4.
 
 ## Installation
 
