@@ -20,7 +20,7 @@ class DoctrineOci8Extension extends Extension implements PrependExtensionInterfa
     public function prepend(ContainerBuilder $container)
     {
         if (false === $container->hasExtension('doctrine')) {
-            return;
+            return false;
         }
 
         $container
