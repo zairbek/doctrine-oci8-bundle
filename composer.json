@@ -12,7 +12,7 @@
     "license": "BSD-3-Clause",
     "require": {
         "php": ">= 7.4",
-        "sensio/framework-extra-bundle": "^5.5",
+        "ext-oci8": "*",
         "symfony/dependency-injection": "^5.2",
         "ecphp/doctrine-oci8": "dev-master"
     },
