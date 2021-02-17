@@ -13,8 +13,8 @@
     "require": {
         "php": ">= 7.4",
         "ext-oci8": "*",
-        "symfony/dependency-injection": "^4.4",
-        "ecphp/doctrine-oci8": "^1"
+        "ecphp/doctrine-oci8": "^1",
+        "symfony/dependency-injection": "^4.4"
     },
     "require-dev": {
         "drupol/php-conventions": "^3.0",
