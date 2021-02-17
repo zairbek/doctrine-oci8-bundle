@@ -12,8 +12,15 @@
 
 A bundle for Symfony 5.
 
-Read more on the [dedicated documentation site][http readthedocs].
+## Installation
 
-[http wso2 documentation]: https://docs.wso2.com/display/AM260/
-[http wso2 website]: https://wso2.com/
-[http readthedocs]: https://ecphp-doctrine-oci8-bundle.readthedocs.io/
+`composer require ecphp/doctrine-oci8-bundle`
+
+## Usage
+
+Once installed, the bundle will automatically configure Doctrine to use the OCI8 driver
+provided by the package [ecphp/doctrine-oci8][http ecphp/doctrine-oci8].
+
+This package does not provide any configuration and there is nothing to do once it is installed.
+
+[http ecphp/doctrine-oci8]: https://github.com/ecphp/doctrine-oci8
