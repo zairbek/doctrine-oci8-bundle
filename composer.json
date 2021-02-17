@@ -22,7 +22,8 @@
         "infection/infection": "^0.21.0",
         "infection/phpspec-adapter": "^0.1.2",
         "phpspec/phpspec": "^7.0",
-        "symfony/http-kernel": "^4.4"
+        "symfony/http-kernel": "^4.4",
+        "vimeo/psalm": "^4"
     },
     "autoload": {
         "psr-4": {
