@@ -14,7 +14,7 @@
         "php": ">= 7.4",
         "ext-oci8": "*",
         "ecphp/doctrine-oci8": "^1",
-        "symfony/dependency-injection": "^4.4"
+        "symfony/dependency-injection": ">= 4.4"
     },
     "require-dev": {
         "drupol/php-conventions": "^3.0",
@@ -37,6 +37,8 @@
         }
     },
     "scripts": {
+        "changelog-unreleased": "docker-compose run auto_changelog -c .auto-changelog -u",
+        "changelog-version": "docker-compose run auto_changelog -c .auto-changelog -v",
         "grumphp": "./vendor/bin/grumphp run"
     }
 }
