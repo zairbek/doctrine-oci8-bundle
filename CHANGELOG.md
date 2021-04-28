@@ -5,6 +5,25 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.1](https://github.com/ecphp/doctrine-oci8-bundle/compare/1.0.0...1.0.1)
+
+### Merged
+
+- ci: Update Scrutinizer config. [`#1`](https://github.com/ecphp/doctrine-oci8-bundle/pull/1)
+
+### Commits
+
+- Add automatic changelog generation. [`c2bda29`](https://github.com/ecphp/doctrine-oci8-bundle/commit/c2bda29513573290cce2bcdbce2a20d9e6ec32ff)
+- ci: Add Docker stack. [`4d8e04b`](https://github.com/ecphp/doctrine-oci8-bundle/commit/4d8e04b35f476b877757aebc2878645e4c7c9415)
+- chore: Update composer.json. [`5c25efd`](https://github.com/ecphp/doctrine-oci8-bundle/commit/5c25efd4f20f9eba0d9ab6b14f47961dca6e3482)
+- ci: Update Scrutinizer. [`565e331`](https://github.com/ecphp/doctrine-oci8-bundle/commit/565e3319a41c3cf43d5198da8b5425f4016bf977)
+- chore: Update composer.json. [`3f726ae`](https://github.com/ecphp/doctrine-oci8-bundle/commit/3f726ae2b33a96764fe01bffb76540250bf4d662)
+- chore: Update composer.json. [`b1d26f3`](https://github.com/ecphp/doctrine-oci8-bundle/commit/b1d26f3d100295cb18ac1647238fcce5db521433)
+- chore: Update composer.json. [`d8fe144`](https://github.com/ecphp/doctrine-oci8-bundle/commit/d8fe1447efc3d2c03a2ac8855d876888149736a0)
+- chore: Update composer.json. [`c30bb25`](https://github.com/ecphp/doctrine-oci8-bundle/commit/c30bb25157ffabcfd588eddc5d9f214ae6575f3e)
+- ci: Update Github Actions configuration. [`8c40e80`](https://github.com/ecphp/doctrine-oci8-bundle/commit/8c40e80a5819e8a0e9c2e70c7cd961181c11054c)
+- docs: Update changelog. [`a93fd1e`](https://github.com/ecphp/doctrine-oci8-bundle/commit/a93fd1e30b05dc6875b505d5dcc0b73a3325acfb)
+
 ## 1.0.0 - 2021-02-17
 
 ### Commits
