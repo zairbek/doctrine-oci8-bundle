@@ -1,10 +1,10 @@
 imports:
-  - { resource: vendor/drupol/php-conventions/config/php73/grumphp.yml }
+  - { resource: vendor/ecphp/php-conventions/config/php73/grumphp.yml }
 
 parameters:
+  tasks.license.date_from: 2021
+  tasks.license.holder: ECPHP
   extra_tasks:
-    psalm:
-      show_info: true
     phpspec:
       verbose: true
     clover_coverage:

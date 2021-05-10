@@ -17,13 +17,12 @@
         "symfony/dependency-injection": ">= 4.4"
     },
     "require-dev": {
-        "drupol/php-conventions": "^3.0",
+        "ecphp/php-conventions": "^1.0",
         "friends-of-phpspec/phpspec-code-coverage": "^6.0",
-        "infection/infection": "^0.21.0",
+        "infection/infection": "^0.22.0",
         "infection/phpspec-adapter": "^0.1.2",
         "phpspec/phpspec": "^7.0",
-        "symfony/http-kernel": "^4.4",
-        "vimeo/psalm": "^4"
+        "symfony/http-kernel": "^4.4"
     },
     "autoload": {
         "psr-4": {
