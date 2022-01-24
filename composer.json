@@ -1,7 +1,8 @@
 {
     "name": "ecphp/doctrine-oci8-bundle",
-    "type": "symfony-bundle",
     "description": "Doctrine OCI8 (Oracle) bundle",
+    "license": "BSD-3-Clause",
+    "type": "symfony-bundle",
     "keywords": [
         "bundle",
         "oci",
@@ -9,7 +10,6 @@
         "oracle",
         "symfony"
     ],
-    "license": "BSD-3-Clause",
     "require": {
         "php": ">= 7.4",
         "ext-oci8": "*",
@@ -33,6 +33,15 @@
         "psr-4": {
             "spec\\EcPhp\\DoctrineOci8Bundle\\": "./spec/EcPhp/DoctrineOci8Bundle/",
             "tests\\EcPhp\\DoctrineOci8Bundle\\": "./tests/src"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/package-versions-deprecated": true,
+            "ergebnis/composer-normalize": true,
+            "infection/extension-installer": true,
+            "phpro/grumphp": true,
+            "phpstan/extension-installer": true
         }
     },
     "scripts": {
