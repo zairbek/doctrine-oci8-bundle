@@ -12,3 +12,10 @@ services:
         working_dir: /src
         volumes:
             - .:/src
+    app:
+        build:
+            context: .
+            dockerfile: docker/php-fpm/debian/Dockerfile
+        volumes:
+            - .:/var/www
+        platform: linux/amd64
