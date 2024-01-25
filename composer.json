@@ -1,5 +1,6 @@
 {
-    "name": "ecphp/doctrine-oci8-bundle",
+    "name": "zairbek/doctrine-oci8-bundle",
+    "version": "dev-test",
     "description": "Doctrine OCI8 (Oracle) bundle",
     "license": "BSD-3-Clause",
     "type": "symfony-bundle",
